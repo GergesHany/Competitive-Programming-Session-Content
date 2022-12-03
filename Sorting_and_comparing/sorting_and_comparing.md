@@ -102,14 +102,13 @@ sort(vec.begin(), vec.end(), [](auto &left, auto &right) {   // sort by first el
 ```cpp
 struct data{
     int x;
-
     bool operator< (const int & a) const{
         return x < a;
     }
 };
 ```
 ```cpp
-vector < data > arr={1,2,3};
+vector < data > arr = {1, 2, 3};
 sort(arr.begin() , arr.end());
 ```
 
