@@ -253,7 +253,7 @@ and then you can sort the vector with any method you want form here :
 - [ sorting vector of pairs](#sort-using-boolen-function)
 
 
-## sorting praioratyqueue :
+## sorting priority_queue :
 
 
 ### sort suing struct :
