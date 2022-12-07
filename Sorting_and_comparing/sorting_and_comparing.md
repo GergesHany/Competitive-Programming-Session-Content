@@ -299,5 +299,6 @@ struct value{
 - [top k frequent words]( https://leetcode.com/problems/top-k-frequent-words/)
 
 - [the number of weak characters in the game]( https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)
+- [Not a Cheap String](https://codeforces.com/contest/1702/problem/D)
 
 
