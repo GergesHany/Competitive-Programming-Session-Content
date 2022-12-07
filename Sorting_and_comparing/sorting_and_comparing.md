@@ -1,6 +1,6 @@
 # Sorting and comparing 
 ## session 
-- [session](https://drive.google.com/file/d/18maCQBENZY-SYXJJO4hOHjORPDxJjC65/view)
+- [session](https://drive.google.com/file/d/18maCQBENZY-SYXJJO4hOHjORPDxJjC65/view?usp=sharing)
 ## sorting vectors 
 
 ### sort vectors using sort() function :
