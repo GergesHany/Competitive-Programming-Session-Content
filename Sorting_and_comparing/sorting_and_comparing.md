@@ -300,5 +300,6 @@ struct value{
 
 - [the number of weak characters in the game]( https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)
 - [Not a Cheap String](https://codeforces.com/contest/1702/problem/D)
+- [Dishonest Sellers](https://codeforces.com/contest/779/problem/C)
 
 
