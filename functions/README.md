@@ -20,12 +20,8 @@ using namespace std;
 
 // Following function that takes two parameters 'x' and 'y'
 // as input and returns max of two input numbers
-int max(int x, int y)
-{
-  if (x > y)
-   return x;
-  else
-   return y;
+int max(int x, int y){
+  return (x > y ? x : y);
 }
 
 // main function that doesn't receive any parameter and
