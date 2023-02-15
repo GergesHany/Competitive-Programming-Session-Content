@@ -398,7 +398,7 @@ The above example shows an error “call of overloaded ‘fun(double)’ is ambi
 
 
 
-## syntax for lambada function
+## syntax for lambda function
 
 ```cpp
 #include <bits/stdc++.h>
