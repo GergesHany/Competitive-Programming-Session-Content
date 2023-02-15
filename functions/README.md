@@ -1,9 +1,9 @@
 ## session 
 - [session]()
 
-## Sheet 
-- [Sheet](https://codeforces.com/group/n3sTiYtHxI/contest/348734)
+## Problems
 
+- [**Function Sheet**](https://codeforces.com/group/n3sTiYtHxI/contest/348734)
 
 
 ## Functions in C++
