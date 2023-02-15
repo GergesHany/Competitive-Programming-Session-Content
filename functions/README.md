@@ -394,19 +394,37 @@ The above example shows an error “call of overloaded ‘fun(double)’ is ambi
 
 
 
+## syntax for lambada function
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std; 
 
 
+int main()
+{
+  
+  // lambda function to add two numbers using auto
+  auto add = [](int a, int b) -> int { 
+    return a + b; 
+  };
+
+  cout << add(1, 2) << "\n";
+
+  // lambda function to add two numbers using function 
+  function <int(int, int)> add2 = [](int a, int b) -> int { 
+    return a + b; 
+  };
+
+  cout << add2(1, 2) << "\n";
+ 
+  auto add3 = [](int a, int b) -> int { 
+    return a + b; 
+  }(1, 2); // call the lambda function
+
+  cout << add3 << "\n";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+  return 0;
+}
+```
