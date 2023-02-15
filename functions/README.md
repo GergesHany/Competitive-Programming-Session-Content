@@ -3,7 +3,7 @@
 
 ## Problems
 
-- [**Function Sheet**]((https://codeforces.com/group/MWSDmqGsZm/contest/223205)
+- [**Function Sheet**](https://codeforces.com/group/MWSDmqGsZm/contest/223205)
 
 ## Functions in C++
 
