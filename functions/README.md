@@ -1,6 +1,11 @@
 ## session 
 - [session]()
 
+## Sheet 
+- [Sheet](https://codeforces.com/group/n3sTiYtHxI/contest/348734)
+
+
+
 ## Functions in C++
 
 A function is a set of statements that take inputs, do some specific computation, and produce output. The idea is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again for different inputs, we can call the function.
