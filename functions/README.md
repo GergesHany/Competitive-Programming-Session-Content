@@ -223,6 +223,180 @@ Since the main function has the return type of int, the programmer must always h
 
 
 
+## C++ Recursion
+
+When function is called within the same function, it is known as recursion in C++. The function which calls the same function, is known as recursive function.
+A function that calls itself, and doesn’t perform any task after function call, is known as tail recursion. In tail recursion, we generally call the same function with return statement.
+
+`Syntax:`
+
+```cpp
+recursionfunction(){
+  recursionfunction(); // calling self function
+}
+```
+
+
+## Passing Array to Function
+In C++, to reuse the array logic, we can create function. To pass array to function in C++,  we need to provide only array name.
+```cpp
+functionname(arrayname); //passing array to function
+```
+
+####  Example: Print minimum number
+
+```cpp
+#include <iostream>
+using namespace std;
+void printMin(int arr[5]);
+int main()
+{
+  int ar[5] = { 30, 10, 20, 40, 50 };
+  printMin(ar); // passing array to function
+}
+void printMin(int arr[5]){
+  int min = arr[0];
+  for (int i = 0; i < 5; i++) {
+    if (min > arr[i]) {
+      min = arr[i];
+    }
+  }
+  cout << "Minimum element is: " << min << "\n";
+}
+```
+
+`Output: Minimum element is: 10`
+
+
+- Time complexity: O(n) where n is the size of  array
+- Space complexity: O(n) where n is the size of array.
+
+
+## C++ Overloading (Function)
+If we create two or more members having the same name but different in number or type of parameter, it is known as C++ overloading. In C++, we can overload:
+
+- methods,
+- constructors and
+- indexed properties
+
+It is because these members have parameters only.
+
+## Types of overloading in C++ are:
+- Function overloading
+- Operator overloading
+
+
+Function Overloading is defined as the process of having two or more function with the same name, but different in parameters is known as function overloading in C++. In function overloading, the function is redefined by using either different types of arguments or a different number of arguments. It is only through these differences compiler can differentiate between the functions.
+The advantage of Function overloading is that it increases the readability of the program because you don’t need to use different names for the same action.
+Example: changing number of arguments of `add()` method
+
+```cpp
+// program of function overloading when number of arguments
+// vary
+#include <iostream>
+using namespace std;
+class Cal {
+public:
+  static int add(int a, int b) { 
+    return a + b; 
+  }
+  static int add(int a, int b, int c){
+    return a + b + c;
+  }
+};
+int main(void)
+{
+  Cal C; // class object declaration.
+  cout << C.add(10, 20) << endl;
+  cout << C.add(12, 20, 23);
+  return 0;
+}
+
+// Code Submitted By Susobhan Akhuli
+```
+`Output`
+`30`
+`55`
+
+- Time complexity: O(1)
+- Space complexity: O(1)
+
+
+## Example: when the type of the arguments vary.
+
+```cpp
+// Program of function overloading with different types of
+// arguments.
+#include <iostream>
+using namespace std;
+int mul(int, int);
+float mul(float, int);
+
+int mul(int a, int b) { return a * b; }
+float mul(double x, int y) { return x * y; }
+
+int main()
+{
+  int r1 = mul(6, 7);
+  float r2 = mul(0.2, 3);
+  cout << "r1 is : " << r1 << endl;
+  cout << "r2 is : " << r2 << endl;
+  return 0;
+}
+```
+
+
+`Output`
+`r1 is : 42`
+`r2 is : 0.6`
+
+
+- Time Complexity: O(1)
+- Space Complexity: O(1)
+
+
+## Function Overloading and Ambiguity
+When the compiler is unable to decide which function is to be invoked among the overloaded function, this situation is known as function overloading.
+When the compiler shows the ambiguity error, the compiler does not run the program.
+
+
+
+#### Causes of Function Overloading:
+
+Type Conversion.
+- Function with default arguments.
+- Function with pass by reference.
+
+
+`Type Conversion:-`
+
+```cpp
+#include <iostream>
+using namespace std;
+void fun(int);
+void fun(float);
+void fun(int i) {
+  cout << "Value of i is : " << i << endl; 
+}
+void fun(float j){
+  cout << "Value of j is : " << j << endl;
+}
+
+int main()
+{
+  fun(12);
+  fun(1.2);
+  return 0;
+}
+```
+
+The above example shows an error “call of overloaded ‘fun(double)’ is ambiguous“. The fun(10) will call the first function. The fun(1.2) calls the second function according to our prediction. But, this does not refer to any function as in C++, all the floating point constants are treated as double not as a float. If we replace float to double, the program works. Therefore, this is a type conversion from float to double.
+
+
+
+
+
+
 
 
 
