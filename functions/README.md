@@ -1,5 +1,6 @@
 ## session 
 - [session](https://drive.google.com/file/d/1dO96QL3pzhdYTgVMzTsEjw5EsJ7ws_bF/view?usp=sharing)
+- [youtube](https://www.youtube.com/watch?v=cc4SLLilEfk&t=1236s)
 
 ## Problems
 
