@@ -167,12 +167,14 @@ struct value{
   set < value > st; 
   for (int i = 0; i < 10; i++) st.insert(value(i)); 
   for (auto it : st) cout << it.val << " "; cout << "\n";
-  // output :  0 1 2 3 4 5 6 7 8 9
+```  
+`output :  0 1 2 3 4 5 6 7 8 9`
+```cpp  
   set < ll, value > st2;
   for (int i = 0; i < 10; i++) st2.insert(i);
   for (auto it : st2) cout << it << " "; cout << "\n";
-  // output : 9 8 7 6 5 4 3 2 1 0
 ```
+`output : 9 8 7 6 5 4 3 2 1 0`
 
 
 ### sort using class :
@@ -195,8 +197,8 @@ class sorting{
   set < sorting > s;
   for (int i = 0; i < 10; i++) s.insert(sorting(i));
   for (auto x : s) cout << x.val << " ";
-  // output: 0 1 2 3 4 5 6 7 8 9
 ```
+`output: 0 1 2 3 4 5 6 7 8 9`
 
 
 ### problem to solve 
@@ -227,20 +229,29 @@ struct value{
   map < value, ll > mp;
   for (int i = 0; i < 5; i++) mp[value(i)]++;
   for (auto it : mp) cout << it.first.val << " " << it.second << "\n";
-  //output : 0 1
-  //         1 1
-  //         2 1
-  //         3 1
-  //         4 1
+```
+```cpp
+output :
+  0 1
+  1 1
+  2 1
+  3 1
+  4 1
+```
+```cpp
   map < ll, ll, value > mp2;
   for (int i = 0; i < 5; i++) mp2[i]++;
   for (auto it : mp2) cout << it.first << " " << it.second << "\n";
-  //output :4 1
-  //        3 1
-  //        2 1
-  //        1 1
-  //        0 1
 ```
+```cpp
+output :
+ 4 1
+ 3 1
+ 2 1
+ 1 1
+ 0 1
+```
+
 ### sort using vector of pairs :
 ```cpp
   map < int, int > mp;
@@ -273,8 +284,9 @@ struct value{
     cout << pq.top().val << " ";
     pq.pop();
   }
-  //output : 0 1 2 3 4 5 6 7 8 9
 ```
+`output : 0 1 2 3 4 5 6 7 8 9`
+
 ### articles
 - [STL Priority Queue for Structure](https://www.geeksforgeeks.org/stl-priority-queue-for-structure-or-class/)
 
