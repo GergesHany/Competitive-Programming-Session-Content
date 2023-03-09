@@ -1,26 +1,38 @@
+
+
+## Additional Materials
+
+
+- [Frequency Array - Muhammed Afifi](https://youtu.be/kQGTjql8WjI)
+- [Prefix Sum - Mostafa Saad](https://youtu.be/hqOqr6vFPp8)
+- [Partial Sum - Muhammed Afifi](https://youtu.be/vF78qRAAyx4)
+
+<hr>
+
 ## problems 
 
+### freqarray
+- [Count the Number of Pairs](https://codeforces.com/contest/1800/problem/B)
+- [Count numbers](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/A) 
+- [Sort the array](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/C)
+- [Not a Cheap String](https://codeforces.com/contest/1702/problem/D)
+- [Alphabetic Removals](https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/B)
 
-### freqarray:
-- https://codeforces.com/contest/1800/problem/B
-- https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/A 
-- https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/C
-- https://codeforces.com/contest/1702/problem/D
-- https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/B
+<hr>
 
+### prefix sum
+- [Range sum query](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/E)
+- [ Black and White Stripe](https://codeforces.com/contest/1690/problem/D)
 
-### prefix sum:
-- https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/E
-- https://codeforces.com/contest/1690/problem/D
+<hr>
 
+### partial sum
+- [update range](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)
 
-
-### partial sum:
-- https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F
-
+<hr>
 
 ### visited array
-- https://codeforces.com/contest/1703/problem/B
-- https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/M 
+- [ICPC Balloons](https://codeforces.com/contest/1703/problem/B)
+- [ distinct elements](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/M)
 
 
