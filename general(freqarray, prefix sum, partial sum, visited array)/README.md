@@ -24,10 +24,6 @@
 - [Range sum query](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/E)
 - [ Black and White Stripe](https://codeforces.com/contest/1690/problem/D)
 
-<hr>
-
-### partial sum
-- [update range](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)
 
 <hr>
 
@@ -35,4 +31,8 @@
 - [ICPC Balloons](https://codeforces.com/contest/1703/problem/B)
 - [ distinct elements](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/M)
 
+<hr>
+
+### partial sum
+- [update range](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)
 
