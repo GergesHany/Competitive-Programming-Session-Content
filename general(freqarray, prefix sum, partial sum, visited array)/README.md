@@ -1,6 +1,5 @@
 ## session 
 - [session]()
-- [youtube]()
 
 <hr>
 
