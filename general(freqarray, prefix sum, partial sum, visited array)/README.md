@@ -44,8 +44,10 @@
 
 ### partial sum
 - [update range](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)
-- [Monsters Fight!!](https://codeforces.com/group/d7sWIJvZg5/contest/404585/problem/F)
-- [Kick The Ball](https://codeforces.com/group/d7sWIJvZg5/contest/404585/problem/B)
+### in contest one problem f
+- [Monsters Fight!!](https://codeforces.com/group/d7sWIJvZg5/contests)
+### in contest one problem b
+- [Kick The Ball](https://codeforces.com/group/d7sWIJvZg5/contests) 
 
 
 
