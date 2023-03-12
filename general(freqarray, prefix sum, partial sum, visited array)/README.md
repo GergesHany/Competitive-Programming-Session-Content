@@ -20,7 +20,7 @@
 
 ## problems 
 
-### freqarray
+## freqarray
 - [Count the Number of Pairs](https://codeforces.com/contest/1800/problem/B)
 - [Count numbers](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/A) 
 - [Sort the array](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/C)
@@ -29,7 +29,7 @@
 
 <hr>
 
-### prefix sum
+## prefix sum
 - [Range sum query](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/E)
 - [ Black and White Stripe](https://codeforces.com/contest/1690/problem/D)
 
@@ -42,7 +42,7 @@
 
 <hr>
 
-### partial sum
+## partial sum
 - [update range](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)
 ### in contest one problem f
 - [Monsters Fight!!](https://codeforces.com/group/d7sWIJvZg5/contests)
